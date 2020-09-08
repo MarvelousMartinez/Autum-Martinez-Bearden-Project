@@ -1,0 +1,224 @@
+body {
+    margin: 0px;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+.navigation-wrapper {
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.navigation-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* Left Column */
+
+.left-column > .banner-image img {
+    width: 200px;
+    height: 35px;
+}
+
+.navigation-wrapper > .left-column > .banner-image {
+    text-align: left;
+    align-items: center;
+}
+
+/* Center Column */
+
+.center-column {
+    padding: 0px 300px 0px 50px;
+}
+
+.center-column a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.center-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    margin: 5px;
+    font-size: 1em;
+}
+
+#explore {
+    Font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.center-links-wrapper > .nav-links > .Pens {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+ .center-links-wrapper > .nav-links > .spark {
+    margin: 30px 0px 30px 30px;
+}
+
+.center-links-wrapper > .nav-links > i {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Right Column */
+
+.right-column a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.right-links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-links-wrapper > .nav-links {
+    margin-top: 15px;
+    padding: 4px 4px;
+}
+
+.btn {
+    background-color: #383939;
+    color: white;
+    font-size: 1.25em;
+    padding: 15px 25px;
+    border: 1px solid #383939;
+    border-radius: 3px;
+    outline: none;
+}
+
+.Login > .btn {
+    padding: 15px 15px;
+}
+
+.nav-links > .create {
+    background-color: #383939;
+    color: white;
+    font-size: 1.25em;
+    padding: 7px 18px;
+    border-radius: 3px;
+    outline: none;
+    font-family: 'Open Sans', 'Sans Serif';
+}
+
+.right-links-wrapper > .nav-links > .create > .fa-angle-down {
+    color: green;
+    vertical-align: middle;
+}
+
+.right-links-wrapper > .nav-links > .search {
+  color: grey;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-image: linear-gradient(to right, rgba(2,0,0,0.5), rgba(2, 0, 0, 5));
+    height: 600px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.hero-section > .top-heading > .writing > .writing-with-hand {
+    color: #fff;
+    font-size: 40px;
+    vertical-align: middle;
+    line-height: 10px;
+    padding: 30px 0px 5px 60px;
+}
+
+.hero-section > .top-heading > .writing > .writing-with-hand > .strong {
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero-section > .top-heading > .writing > .coding-project a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 140px;
+    left: 910px;
+}
+
+.hero-section > .top-heading > .writing > .coding-project > .strong {
+    font-weight: bold;
+}
+
+.hero-section > .top-heading > .writing > .more-writing {
+    color: #cbcbcb;
+    padding: 0px 60px;
+    font-size: 1.9em;
+    line-height: 10px;
+} 
+
+.hero-section > .top-heading > .buttons > .buttons-wrapper {
+    display: grid;
+    grid-template-columns: 220px 100px;
+    grid-gap: 10px;
+    padding: 30px 60px;
+}
+
+.hero-section > .top-heading > .buttons > .buttons-wrapper > .Sign-Up-Free {
+    height: 100px;
+    width: 300px;
+}
+
+.hero-section > .top-heading > .buttons > .buttons-wrapper > .Learn-More {
+    height: 100px;
+    width: 250px;
+}
+
+.hero-section > .top-heading > .screenshot {
+    height: 21.600px;
+    width: 585px;
+}
+
+.hero-section > .top-heading > .screenshot img{
+    height: 480px;
+    position: relative;
+    left: 910px;
+    bottom: 460px;
+    width: 600px;
+}
+
+.bottom-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-heading > .boxes {
+    width: 100%;
+    height: 60px;
+    padding: 2px;
+    background-color: #36383f;
+    border: solid #676767 3px;
+    color: #ffffff;
+    font-family: 'Oswald';
+    font-weight: 300;
+    text-align: center;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.bottom-heading > .boxes > .strong {
+    font-family:'Oswald';
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 40px;
+}
